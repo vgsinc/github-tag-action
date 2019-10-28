@@ -44,6 +44,7 @@ jobs:
 * **BUMP** *(optional)* - Which type of bump to use (default: `build`).
 * **WITH_V** *(optional)* - Tag version with `v` character.
 * **SKIP_NO_CHANGES** *(optional)* - Indicates if a tag should be skipped when there are no new changes (default: `false`).
+* **REPO** - The full repo that the tag will be made in. (example: org/repo_name)
 
 #### Outputs
 
