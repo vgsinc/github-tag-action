@@ -9,7 +9,7 @@ function update_version() {
 #config
 semver_bump=${BUMP:-build}
 with_v=${WITH_V:-false}
-skip_no_changes=${SKIP_NO_CHANGES:-false}
+skip_no_changes=${SKIP_NO_CHANGES:-true}
 
 echo "--------------------------------------------------------"
 echo "Semver Bump: ${semver_bump}"
